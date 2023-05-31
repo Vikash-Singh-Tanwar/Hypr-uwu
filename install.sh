@@ -29,27 +29,15 @@ else
   fi
 fi
 
-# Set username and build directory
-username="your_username"
-builddir="your_build_directory"
-
 # Making .config and Moving config files and background to Pictures
-mkdir -p /home/"$username"/.config
-mkdir -p /usr/share/sddm/themes
-cp -R dotconfig/* /home/"$username"/.config/
-cp wallpaper.jpg /home/"$username"/.config/bspwm/
-mv user-dirs.dirs /home/"$username"/.config
-chown -R "$username":"$username" /home/"$username"
+mkdir -p ~/.config
+cp -R config/* ~/.config/
 
 # Installing Essential Programs
-paru -S -y
+paru -S wayland qt5-wayland qt6-wayland hyprpaper hyprpicker hyprshot hyprland kitty wezterm gnome-tweak-tool xorg-xwayland alsa-utils brightnessctl playerctl /
+imv mpv rofi-lbonn-wayland-git brave-bin gnome-tweak-tool qt5ct kvantum gedit neovim pavucontrol stacer eww-wayland socat jq acpi inotify-tools /
+bluez nm-connection-editor gjs gnome-bluetooth-3.0 upower gtk3 networkmanager wl-clipboard polkit-kde-agent flatpak
 paru -S ttf-ms-win11-auto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-jetbrains-mono-nerd ttf-jetbrains-mono otf-font-awesome nerd-fonts-sf-mono otf-nerd-fonts-monacob-mono -y  ##fonts
-
-# Installing fonts
-cd "$builddir"
-# Add the necessary pacman command here to install fonts
-
-chown "$username":"$username" /home/"$username"/.fonts/*
 
 # Reloading Font
 fc-cache -vf
