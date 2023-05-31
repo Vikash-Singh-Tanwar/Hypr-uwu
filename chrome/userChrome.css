@@ -1,0 +1,83 @@
+#appcontent > #tabbrowser-tabbox > #tabbrowser-tabpanels > .deck-selected > .browserContainer > .browserStack > browser {
+  border-radius: 10px !important;
+  margin: 5px !important;
+}
+
+.browserStack {
+  background: #3b3f52;
+}
+
+.browserContainer {
+  background-color: var(--lwt-accent-color-inactive, var(--lwt-accent-color)) !important;
+  background-image: var(--lwt-header-image), var(--lwt-additional-images) !important;
+  background-repeat: no-repeat, var(--lwt-background-tiling) !important;
+  background-position: right top, var(--lwt-background-alignment) !important;
+}
+
+#titlebar {
+  display: none !important;
+}
+
+.titlebar-buttonbox-container {
+  display: none !important;
+}
+
+#navigator-toolbox:not(:hover) {
+  --is-bar-visible: hidden;
+  opacity: 0 !important;
+  height: 15px;
+  transition: height 200ms ease-in-out, opacity 175ms ease-in-out;
+}
+
+#navigator-toolbox {
+  position: fixed;
+  z-index: 1;
+  height: 10px;
+  overflow: var(--is-bar-visible);
+  right: 0;
+  top: 0;
+  width: calc(100% - 0px);
+  background-color: transparent !important;
+}
+
+#navigator-toolbox:hover {
+  height: 40px;
+  opacity: 1 !important;
+  transition: opacity 175ms ease-in-out;
+}
+
+#navigator-toolbox:focus-within {
+  height: 40px;
+  opacity: 1 !important;
+  transition: opacity 175ms ease-in-out;
+  --is-bar-visible: visible;
+}
+
+#nav-bar {
+  background-color: #3b3f52 !important;
+}
+
+#urlbar-background {
+  background-color: #323446 !important;
+}
+
+toolbarbutton[open="true"] {
+  --is-bar-visible: visible !important;
+}
+
+#sidebar-header {
+  display: none;
+}
+
+#sidebar-splitter {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Add Backward and Forward buttons */
+#back-button,
+#forward-button {
+  display: -moz-box !important;
+}
+
