@@ -8,7 +8,7 @@ return {
     inactive_titlebar_bg = '#333333',
   },
   use_fancy_tab_bar = true,
-  font = wezterm.font 'CaskaydiaCove NF',
+  font = wezterm.font 'JetBrains Mono',
   default_cursor_style = 'BlinkingBar',
 
   window_close_confirmation = 'NeverPrompt',
