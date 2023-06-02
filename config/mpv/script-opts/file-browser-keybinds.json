@@ -1,0 +1,30 @@
+[
+    {
+        "key": "WHEEL_UP",
+        "command": ["script-binding", "file_browser/dynamic/scroll_up"]
+    },
+    {
+        "key": "WHEEL_DOWN",
+        "command": ["script-binding", "file_browser/dynamic/scroll_down"]
+    },
+    {
+        "key": "Alt+WHEEL_UP",
+        "command": ["script-binding", "file_browser/dynamic/down_dir"]
+    },
+    {
+        "key": "Alt+WHEEL_DOWN",
+        "command": ["script-binding", "file_browser/dynamic/up_dir"]
+    },
+    {
+        "key": "Shift+WHEEL_UP",
+        "command": ["script-binding", "file_browser/dynamic/page_up"]
+    },
+    {
+        "key": "Shift+WHEEL_DOWN",
+        "command": ["script-binding", "file_browser/dynamic/page_down"]
+    },
+    {
+        "key": "MBTN_MID",
+        "command": ["script-binding", "file_browser/dynamic/play"]
+    }
+]
