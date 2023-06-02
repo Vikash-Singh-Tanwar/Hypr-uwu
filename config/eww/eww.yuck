@@ -24,8 +24,8 @@
 (defpoll    date        :interval "5s" `date "+%b. %d. %A"`)
 (defpoll    uptime      :interval "60s" "uptime | awk '{print $3}' | tr ',' ' '")
 
-(defvar real_name "Demeter")
-(defvar user_name "@Aylur")
+(defvar real_name "user")
+(defvar user_name "@username")
 
 (include "./yuck/widgets.yuck")
 (include "./yuck/windows.yuck")
