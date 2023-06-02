@@ -111,6 +111,7 @@ SUPER + F                         nemo
 SUPER + X                         wlogout
 SUPER + SHIFT + X                 exit Hyprland
 ```
+You can change these keybindings by editing ~/.config/hypr/hyprland.conf  file's kiybindings section 
 
 laptop keys are all working (brightness and media keys)
 
