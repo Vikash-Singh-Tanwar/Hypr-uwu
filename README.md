@@ -84,7 +84,7 @@ press i to go into insert mode and type or paste the follwing
 QT_QPA_PLATFORMTHEME=qt5ct
 ```
 
-Some people might try to use lxappearance and wont use gnome-tweaks might run into wierd cursor behavior please change your theme as same as you changed in lxappearance
+Some people might use lxappearance instead of gnome-tweak. In that case might run into wierd or some apps not respecting themes and some wierd cursor themeing issue. So, please make sure that you use same setting in gnome-tweak-tool and lxappearance as well {You can launch gnome tweak tool from by typing gnome-tweaks in terminal as it wont be visible in run menu or alternatively you can use rofi-show run}
 
 ## FIXING ICONS NOT APPEARING IN EWW BAR 
 
