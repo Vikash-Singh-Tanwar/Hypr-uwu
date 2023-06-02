@@ -1,0 +1,138 @@
+
+# DISCLAIMER
+
+For stater this process is made keeping arch in mind and will work fine on fedora same on Fedora, Nix, Gentoo, Void and anyother rolling release distro but will not work on Ubuntu or any other Debian based distro cause of too old packages you might go ahead and use nix package manager on debain for a more stable experince.
+
+
+    
+## Screenshots
+
+![Tiled layout](https://github.com/vs66388/Hypr-uwu/blob/main/Screenshots/Tiled%20Layout.png)
+## AUTOMATIC INSTALLATION
+This is an automatic installation script will only only install pacakges for you might not copy file if you have a system already set up so after running script please jump to the copy config section of page and follow steps thier and if anyone wants and knows a way please fix my script cause i dont know how to
+```bash
+git clone https://github.com/vs66388/Hypr-uwu.git && cd Hypr-uwu
+sudo bash ./install.sh
+```
+
+## MANUAL INSTALLATION
+
+BASIC INSTALLTION
+
+Install Wayland Compositor & Related dependencies
+
+```bash
+paru -S Hyprland hyprpaper hyprpaper kitty wezterm gtklock xdg-desktop-portal-hyptland qt5-wayland qt6-wayland wayland   
+  ```
+
+Bar and Bar Needed Utilities
+
+```bash
+paru -S eww-wayland ttf-ubuntu-mono-nerd socat acpi jp inotify bluez gnome-bluetooth-3.0 gtk3 wl-clipboard blueberry polkit-kde-agent
+```
+Media && Brightness Controls
+
+```bash
+paru -S playerctl brightnessctl alsa-utils pavucontrol upower
+```
+
+Browser && Other managing tools
+```bash
+paru -S nemo brave-bin rofi-lbonn-wayland-git cups file-roller upower mpv imv nvim gedit gotop-bin htop neofetch flatpak stacer
+```
+
+
+## INSTALLING THEMES 
+
+Installing Theme Manager Gtk & Qt apps
+
+```bash
+paru -S gnome-tweak-tool qt5ct kvantum lxappearance
+```
+
+installing Themes
+```bash
+paru -S qogir-gtk-theme orchis-theme tela-icon-theme 
+```
+
+## SETTING UP NEOVIM
+make neovim look better and more functional using NVChad for more info visit  - [NVChad's website](https://nvchad.com/)
+
+```bash
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+```
+
+most basic keybindings are same 
+to change theme press (SPACE + T +H )
+
+## Applying configs
+
+
+```bash
+git clone https://github.com/vs66388/Hypr-uwu.git && cd Hype-uwu && cp -R config/* ~/.config/
+```
+## FIXING SOME THEMES RELATED ISSUE
+
+in  case Qt based apps  are not following kvantum or qt5ct themes follow themes steps
+
+```bash
+sudo nvim /etc/environment
+```
+
+press i to go into insert mode and type or paste the follwing 
+
+```bash
+QT_QPA_PLATFORMTHEME=qt5ct
+```
+
+Some people might try to use lxappearance and wont use gnome-tweaks might run into wierd cursor behavior please change your theme as same as you changed in lxappearance
+
+## FIXING ICONS NOT APPEARING IN EWW BAR 
+
+```bash
+nvim ~/.config/eww/scss/variables.scss 
+```
+FOR POWER MENU
+
+```bash
+nvim ~/.config/eww/scss/powermenu.scss
+```
+
+In both the file /home/user/..... change user to your username will fix the
+issue  
+
+Some Keybindings
+
+
+```bash
+SUPER + RETURN(ENTER)     -       wezterm
+SUPER + D                         rofi =show drun
+SUPER + S                         rofi -show run
+SUPER + F                         nemo
+SUPER + X                         wlogout
+SUPER + SHIFT + X                 exit Hyprland
+```
+
+laptop keys are all working (brightness and media keys)
+
+
+## Acknowledgements
+
+ - [AYLUR THE EWW GOD](https://github.com/Aylur)
+ - [HYPRLAND CREATOR](https://github.com/vaxerski)
+ - [REDDITORS](www.reddit.com/r/unixporn)
+ - [YOURS TRUELY](https://github.com/vs66388)
+
+
+
+##  CONFESSION
+
+I dont know a hoot about css so i stole EWW Dotfiles rest i did own my own so thank me cause i created nothing but idea to change a window manager into a compelete desktop 
+
+
+
+## License
+
+[GNU GENERAL PUBLIC LICENSE 3.0](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+
+
