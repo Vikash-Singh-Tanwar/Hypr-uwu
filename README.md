@@ -66,8 +66,7 @@ most basic keybindings are same
 to change theme press (SPACE + T +H )
 
 ## Applying configs
-
-
+You can manually copy files from hypr-uwu/config to you ~/.config folder for new people .config folder is hidden by default ho after opening file manager press CTRL+H to unhide it
 ```bash
 git clone https://github.com/vs66388/Hypr-uwu.git && cd Hype-uwu && cp -R config/* ~/.config/
 ```
