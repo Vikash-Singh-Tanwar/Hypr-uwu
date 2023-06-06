@@ -28,7 +28,7 @@ paru -S Hyprland hyprpaper hyprpaper kitty wezterm gtklock xdg-desktop-portal-hy
 Bar and Bar Needed Utilities
 
 ```bash
-paru -S eww-wayland ttf-ubuntu-mono-nerd socat acpi jp inotify bluez gnome-bluetooth-3.0 gtk3 wl-clipboard blueberry polkit-kde-agent
+paru -S eww-wayland ttf-ubuntu-mono-nerd jgs socat acpi jp inotify bluez gnome-bluetooth-3.0 gtk3 wl-clipboard blueberry polkit-kde-agent
 ```
 Media && Brightness Controls
 
