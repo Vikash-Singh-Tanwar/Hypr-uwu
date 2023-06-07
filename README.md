@@ -1,7 +1,7 @@
 
 # DISCLAIMER
 
-For stater this process is made keeping arch in mind and will work fine on fedora same on Fedora, Nix, Gentoo, Void and anyother rolling release distro but will not work on Ubuntu or any other Debian based distro cause of too old packages you might go ahead and use nix package manager on debain for a more stable experince.
+For stater this process is made keeping arch in mind and will work fine on fedora, Nix, Gentoo, Void and anyother rolling release distro but will may or may not work on Ubuntu any for sure wont Debian cause of too old packages and things might break if you still want it then, you might go ahead and use nix package manageror distrobox  on debain i prefer nix package manager due to it fast nature and seemless integation within system for a more stable experince.
 
 
     
