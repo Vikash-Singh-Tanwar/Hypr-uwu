@@ -9,7 +9,7 @@ For stater this process is made keeping arch in mind and will work fine on fedor
 
 ![Tiled layout](https://github.com/vs66388/Hypr-uwu/blob/main/Screenshots/Tiled%20Layout.png)
 ## AUTOMATIC INSTALLATION
-This is an automatic installation script will only only install pacakges for you might not copy file if you have a system already set up so after running script please jump to the copy config section of page and follow steps thier and if anyone wants and knows a way please fix my script cause i dont know how to
+This is an automatic installation script will only only install pacakges for you might not copy file if you have a system already set up so after running script please jump to the copy config section of page and follow steps thier and if anyone wants and knows a way please fix my script cause i dont know how to.
 ```bash
 git clone https://github.com/vs66388/Hypr-uwu.git && cd Hypr-uwu
 sudo bash ./install.sh
