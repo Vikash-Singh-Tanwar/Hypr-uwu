@@ -17,6 +17,8 @@ sudo bash ./install.sh
 
 ## MANUAL INSTALLATION
 
+I AM WORKING ON A GUIDE FOR FEDORA (COMING SOON)
+
 BASIC INSTALLTION
 
 Install Wayland Compositor & Related dependencies
@@ -128,7 +130,6 @@ laptop keys are all working (brightness and media keys)
 ##  CONFESSION
 
 I dont know a hoot about css so i stole EWW Dotfiles rest i did own my own so thank me cause i created nothing but idea to change a window manager into a compelete desktop 
-
 
 
 ## License
