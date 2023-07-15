@@ -57,6 +57,14 @@ installing Themes
 paru -S qogir-gtk-theme orchis-theme tela-icon-theme 
 ```
 
+## FIX CURSOR NOT FOLLOWING THEME ##
+
+fix cursor on homescreen use 
+
+```bash
+hyprctl setcursor Qogir-white 24
+```
+
 ## SETTING UP NEOVIM
 make neovim look better and more functional using NVChad for more info visit  - [NVChad's website](https://nvchad.com/)
 
