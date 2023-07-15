@@ -49,7 +49,7 @@ paru -S nemo brave-bin rofi-lbonn-wayland-git cups file-roller upower mpv imv ne
 Installing Theme Manager Gtk & Qt apps
 
 ```bash
-paru -S gnome-tweak-tool qt5ct kvantum lxappearance
+paru -S nwg-look-bin qt5ct qt6ct kvantum gnome-tweal-tool
 ```
 
 installing Themes
@@ -83,7 +83,7 @@ sudo nvim /etc/environment
 press i to go into insert mode and type or paste the follwing 
 
 ```bash
-QT_QPA_PLATFORMTHEME=qt5ct
+QT_QPA_PLATFORMTHEME=qt6ct
 ```
 
 Some people might use lxappearance instead of gnome-tweak. In that case might run into wierd or some apps not respecting themes and some wierd cursor themeing issue. So, please make sure that you use same setting in gnome-tweak-tool and lxappearance as well {You can launch gnome tweak tool from by typing gnome-tweaks in terminal as it wont be visible in run menu or alternatively you can use rofi-show run}
