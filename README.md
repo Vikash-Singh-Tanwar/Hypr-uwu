@@ -24,7 +24,7 @@ BASIC INSTALLTION
 Install Wayland Compositor & Related dependencies
 
 ```bash
-paru -S Hyprland hyprpaper hyprpaper kitty wezterm gtklock xdg-desktop-portal-hyptland qt5-wayland qt6-wayland wayland   
+paru -S hyprland hyprpaper hyprpaper kitty wezterm gtklock xdg-desktop-portal-hyprland qt5-wayland qt6-wayland wayland   
   ```
 
 Bar and Bar Needed Utilities
@@ -40,7 +40,7 @@ paru -S playerctl brightnessctl alsa-utils pavucontrol upower
 
 Browser && Other managing tools
 ```bash
-paru -S nemo brave-bin rofi-lbonn-wayland-git cups file-roller upower mpv imv nvim gedit gotop-bin htop neofetch flatpak stacer
+paru -S nemo brave-bin rofi-lbonn-wayland-git cups file-roller upower mpv imv neovim gedit gotop-bin htop neofetch flatpak stacer
 ```
 
 
@@ -107,7 +107,7 @@ Some Keybindings
 
 ```bash
 SUPER + RETURN(ENTER)     -       wezterm
-SUPER + D                         rofi =show drun
+SUPER + D                         rofi -show drun
 SUPER + S                         rofi -show run
 SUPER + F                         nemo
 SUPER + X                         wlogout
